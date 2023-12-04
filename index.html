@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href="styles.css">
+  
+  <title>Document</title>
+  
+</head>
+<body>
+ 
+
+    <div class = "buttoncontainer">
+        <button class = "button" id ="Rock">Rock</button>
+        <button class = "button" id ="Paper">Paper</button>
+        <button class = "button" id ="Scissors">Scissors</button>
+    </div>
+
+
+    <div class = "results" id = "resultscontainer">
+      <h1>Results</h1>
+      <p>Player wins: <span id="playeresult">0</span></P>
+      <p>Computer wins: <span id="computerresult">0</span></P>
+      <p>Ties: <span id="tiescounter">0 </p>
+    </div>
+
+
+    <div class = "choices">
+      <p>Player picked: <span  id="playerchoice"></span></P>
+      <p>Computer picked: <span  id="computerchoice"></span></P>
+    </div>
+
+    <div class = "buttoncontainerreset">
+      <button class = "buttonreset" onclick ="endGame()">Reset</button>
+    </div>
+    <script src ="script.js"></script>
+
+</body>
+</html>
